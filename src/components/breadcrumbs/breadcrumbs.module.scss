@@ -1,0 +1,28 @@
+
+.breadcrumbs { 
+    background-color: #6200ee;
+    color: #fff;
+    padding: 25px 25px 10px 25px;
+    .breadcrumbTitle {
+        margin-bottom: 25px;
+    }
+    .breadcrumbsItems {
+        nav {
+            ol {
+                li {
+                    color: #fff;
+                    font-size: 14px;
+                    a {
+                        color: #fff;
+                    }
+                    &:last-child {
+                        a {
+                            pointer-events: none;
+                            color: #b3b3b3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

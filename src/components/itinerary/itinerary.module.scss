@@ -1,0 +1,103 @@
+.customerPaginationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.fitlerWrapper { 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    select {
+        width: 200px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        outline: none;
+        border: 1px solid #ddd;
+        margin-right: 1.5rem;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    .sortIcon {
+        margin-top: 5px;
+        margin-right: 1.5rem;
+        svg {
+            cursor: pointer;
+        }
+    }
+}
+.searchWrapper {
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 5px 10px;
+    input {
+        border: none;
+        box-shadow: none;
+        outline: none;
+        width: 88%;
+    }
+}
+
+.searchAndFilterWrapper {
+    margin: 30px 0 10px;
+}
+
+.customerPaginationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+}
+
+.leadDataWrapper {
+    margin-bottom: 150px;
+}
+.addButton {
+    margin: 4px 0 0 0rem;
+    svg {
+        transform: scale(1.5);
+        color: #6200ee;
+    }
+}
+.customerPaginationVisibility {
+    visibility: hidden;
+}
+
+.createItineraryWrapper {
+    width: 80%;
+    margin: 50px auto;
+
+        
+    
+    #customItineraryWrapper {
+        border-bottom: 1px solid #6200ee;
+        li {
+            label {
+                cursor: pointer;
+            }
+        }
+    }
+    .createItineraryContent {
+        margin: 20px 0;
+        background-color: #fff;
+        padding: 25px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        .createItineraryFormWrapper {
+            
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.createCustomerWrapper {
+    width: 70%;
+    margin: 2rem auto;
+    form {
+        .form-group {
+            label {
+                margin-top: 1rem;
+            }
+        }
+        
+    }
+}
+
+.superviseCustomerWrapper {
+    margin: 50px 0;
+}
+.customerPaginationVisibility {
+    visibility: visible;
+}
+.customerPaginationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+}

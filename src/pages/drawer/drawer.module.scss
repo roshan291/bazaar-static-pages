@@ -1,0 +1,17 @@
+
+
+
+.toHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px 15px 30px !important;
+    svg {
+        transform: scale(1.3);
+        color: firebrick;
+    }
+}
+.content_wrapper {
+    padding: 15px 30px;
+    overflow: auto;
+}

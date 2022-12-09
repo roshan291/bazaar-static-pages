@@ -1,0 +1,123 @@
+
+
+.cardWrpper {
+    margin-bottom: 25px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    position: relative;
+    &:hover {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 1rem 1rem 0.5rem 1rem;
+        background-color: #fff;
+        .icon {
+            background-color: #6200ee;
+            border-radius: 50%;
+            color: #fff;
+            font-weight: 600;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .title {
+            font-size: 20px;
+            line-height: 20px;
+            font-weight: 600;
+            margin-left: 1rem;
+        }
+    }
+    .content {
+        background-color: #f1f1f1;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        padding: 1rem .6rem 1rem 1rem;
+        ul {
+            padding: 0rem;
+            margin: 0;
+            list-style-type: none;
+            margin-top: 0rem;
+            li {
+                margin-bottom: .5rem;
+                svg {
+                    margin-right: 0.5rem;
+                    color: #646464;
+                    transform: scale(.8);
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .viewMoreDetails {
+            margin-left: -.5rem;
+            position: absolute;
+            top: 7px;
+            right: 10px;
+            svg {
+                cursor: pointer;
+                color: #8d8787;
+                &:hover {
+                    color: #6200ee;
+                }
+            }
+            
+        }
+    }
+}
+
+.openModal {
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+   display: none;
+    ul {
+        padding: 15px;
+        margin: 0;
+        list-style-type: none;
+        li {
+
+        }
+    }
+}
+
+.openModalActive {
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+   //display: none;
+    ul {
+        padding: 15px;
+        margin: 0;
+        list-style-type: none;
+    }
+}
+
+.cardWrpper {
+    &:hover {
+        .openModalActive {
+            display: block;
+        }
+    }
+}
+
+.closeIcon {
+    right: 0;
+    position: absolute;
+    margin: 10px;
+    cursor: pointer;
+}

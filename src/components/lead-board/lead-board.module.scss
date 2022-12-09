@@ -1,0 +1,147 @@
+
+
+.fitlerWrapper { 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    select {
+        width: 200px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        outline: none;
+        border: 1px solid #ddd;
+        margin-right: 1.5rem;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    .sortIcon {
+        margin-top: 5px;
+        margin-right: 1.5rem;
+        svg {
+            cursor: pointer;
+        }
+    }
+}
+.searchWrapper {
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 5px 10px;
+    input {
+        border: none;
+        box-shadow: none;
+        outline: none;
+        width: 88%;
+    }
+}
+
+.searchAndFilterWrapper {
+    margin: 30px 0 10px;
+}
+
+.customerPaginationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+}
+
+.leadDataWrapper {
+    margin-bottom: 150px;
+}
+.addButton {
+    margin: 4px 0 0 0rem;
+    svg {
+        transform: scale(1.5);
+        color: #6200ee;
+    }
+}
+.customerPaginationVisibility {
+    visibility: hidden;
+}
+
+
+.leadFormWrapper {
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    .line_devider {
+        background-color: #ddd;
+        height: 1px;
+        margin: 30px 0 20px;
+    }
+    .line_devider_inside {
+        background-color: #ddd;
+        height: 1px;
+        margin: 15px 0;
+    }
+    .subtitle {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .requirement_wrapper {
+        display: inline-block;
+        border: 1px solid #ddd;
+        padding: 2rem;
+        margin: 0 0 15px;
+        background-color: #eff3f6;
+        border-radius: 4px;
+        width: 100%;
+        h6 {
+            padding: 0;
+        }
+    }
+    .primaryButton {
+        background: linear-gradient(90deg,#9250ef,#6200ee);
+        color: #fff;
+        width: 130px;
+        padding: 8px 15px;
+        border-radius: 50px;
+        margin-left: 1.5rem;
+        font-weight: 600;
+        border: none;
+        &:hover {
+          background: linear-gradient(90deg,#6200ee,#6200ee);
+        }
+    }
+    .defaultButton {
+        border: none;
+        color: #6200ee;
+        width: 130px;
+        padding: 8px 15px;
+        border: 1px solid #6200ee !important;
+        border-radius: 50px; 
+        background-color: #fff;
+        font-weight: 600;
+        &:hover {
+            background-color: #ece0fd;
+            color: #6200ee;
+        }
+    }
+    .defaultButtonAddNewCustomer {
+        border: none;
+        color: #6200ee !important;
+        padding: 8px 15px;
+        border: none !important;
+        border-radius: 50px; 
+        background-color: #fff !important;
+        font-weight: 600;
+        &:hover {
+            background-color: #fff;
+            color: #6200ee;
+        }
+    }
+    .requirement_content {
+        padding: 0;
+    }
+    .serviceIncluded {
+        padding: 0;
+    }
+}

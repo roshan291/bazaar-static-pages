@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f7fb !important;
+}
+a {
+  text-decoration: none !important;
+}
+.main {
+    // display: flex;
+    // align-items: flex-start;
+  .side_navigation {
+    // width: 350px;
+  }
+  .activeSideNavigation {
+    width: 70px;
+  }
+  .body_content {
+    width: 100%; 
+  }
+}
+
+
+#responsive-navbar-nav {
+  align-items: flex-start;
+  flex-direction: column;
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+// $primary: #000000;
+// $secondary: #282828;
+
+// $textColor: #192b40;
+// $titleColor: #493ffc;
+// $subTitleColor: #6e5efe;
+
+// $multiColor: linear-gradient( 90deg, #6e5efe 0%, #493ffc 100% );
+
+.primaryButton {
+  background: linear-gradient(90deg,#9250ef,#6200ee);
+  color: #fff;
+  width: 120px;
+  padding: 8px 15px;
+  border-radius: 50px;
+  border: none;
+  &:hover {
+    background: linear-gradient(90deg,#6200ee,#6200ee);
+  }
+}
+
+.secondaryButton {
+  border: none;
+    color: #6200ee;
+    width: 120px;
+    padding: 8px 15px;
+    border-radius: 50px;
+    background-color: #ece0fd;
+    margin: 0 1rem;
+    border: 1px solid #6200ee;
+    &:hover {
+      background-color: #9250ef;
+      color: #fff;
+    }
+}
+
+.defaultButton {
+  border: none;
+  color: #6200ee;
+  width: 120px;
+  padding: 8px 15px;
+  border: 1px solid #6200ee;
+  border-radius: 50px; 
+  &:hover {
+    background-color: #ece0fd;
+  }
+}
+
+.customerCreateForm {
+  .form-row {
+      display: flex;
+      align-items: center;
+      .form-group {
+          label {
+              margin-top: 1rem;
+          }
+      }
+  }
+}
+form {
+  label {
+    margin-bottom: 3px;
+  }
+}
+
+.pagination {
+  .active>.page-link, .page-link.active {
+    background-color: #6200ee !important;
+    
+    color: #fff !important;
+    a {
+      font-weight: 600;
+    }
+  }
+  .page-link:focus {
+    box-shadow: none !important;
+  }
+  .page-link {
+    color: #6200ee !important;
+  }
+  li.page-item.disabled a {
+    opacity: .5;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 90% !important;
+  }
+}
+
+.customerPaginationWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 1.5rem 1.5rem;
+  width: 100%;
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+}
+
+.toHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 30px 15px 30px;
+}
+h2.MuiTypography-root {
+  font-weight: 600;
+  font-size: 18px;
+}
+.MuiDialogContent-root p {
+  color: #282828;
+}
+.MuiDialogActions-root {
+  button {
+      border: 1px solid #310077;
+      width: 100px;
+      margin: 0rem 1rem 1rem 1rem;
+      border-radius: 50px;
+      font-weight: 600;
+  }
+  button:first-child {
+    color: #6200ee;
+    padding: 7px 15px;
+    border: 1px solid #6200ee;
+    border-radius: 50px;
+    
+  }
+  button:last-child  {
+    background: linear-gradient(90deg, #9250ef, #6200ee);
+    color: #fff;
+    padding: 8px 15px; 
+    border: none;
+  }
+}
+
+#customItineraryWrapper {
+  border-bottom: 2px solid #6200ee;
+  padding-bottom: 1px;
+  
+    li {
+        label {
+          cursor: pointer;
+          color: #6200ee;
+          font-weight: 600;
+        }
+        label:hover {
+          border: 1px solid #6200ee;
+        }
+        label.active {
+          border: 2px solid #6200ee;
+          border-bottom: none;
+          color: #fff;
+          background-color: #6200ee;
+        }
+    }
+}

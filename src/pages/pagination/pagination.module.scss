@@ -1,0 +1,29 @@
+
+
+.pagtination_wrapper {
+    ul {
+        margin: 0;
+         
+        li  {
+             
+            a {
+                height: 40px;
+                font-weight: 600;
+                width: 40px;
+            }
+            
+            &:first-child {
+                svg {
+                    position: relative;
+                    left: -5px;
+                }
+            }
+            &:last-child {
+                svg {
+                    position: relative;
+                    left: -5px
+                }
+            }
+        }
+    }
+}
