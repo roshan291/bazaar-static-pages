@@ -124,10 +124,10 @@ const Navigation = (props: any) => {
     <div className={styles.nav_wrapper}>
         <nav>
             <div className={styles.logo_wrapper}>
-                {/* <div>logo</div> */}
-                <Link to="/" onClick={handleDashboard}>
+                <div>logo</div>
+                {/* <Link to="/" onClick={handleDashboard}>
                     <img className={styles.logo} src='https://s3.ap-south-1.amazonaws.com/tripcontrolimage/upload/user_company_logos/1524478299.jpg'  alt=''/>
-                </Link>
+                </Link> */}
                 {/* <div className={`${styles.handleOpenMenu} ${open ? styles.activeMenuOpen : null}`}><MenuOpenIcon onClick={handleMenuOpen} /></div> */}
             </div>
             <ul className={`${styles.menu_items} ${open ? styles.activeMenuItems : null}`}>
